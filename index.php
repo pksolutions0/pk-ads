@@ -12,10 +12,10 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
 
 
-    // $to = "info@usaevirtual.com";
-    $to = "vaibhav.growupnext@gmail.com";
+    $to = "info@usaevirtual.com";
+
     $subject = "Virtual Assistant Website Query";
-    $Message = $name . " Has sent a new message -- " . $text . " /n/n/n/n/n/ and his contact details is " . $number . " and " . $email;
+    $Message = $name . " Has sent a new message -- " . $text . " -------- and his contact details is " . $number . " and " . $email;
     $header = "From " . $name;
 
     if (mail($to, $subject, $Message, $header)) {
@@ -80,9 +80,17 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         </div>
 
         <div class="menu">
+            <ul class="menu-ul">
+                <!-- <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Reviews</a></li> -->
+                <li><a href="tel:844-850-0990">
+                        <i class="fa-solid fa-phone" style="margin-right:5px;"></i> 844-850-0990
+                    </a></li>
 
-            <a href="tel:844-850-0990">
-                <i class="fa-solid fa-phone" style="margin-right:5px;"></i> 844-850-0990</a>
+            </ul>
+
+
         </div>
 
     </navbar>
@@ -115,6 +123,16 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <textarea placeholder="Query" rows="4" name="text"></textarea>
                 <input type="submit" value="Submit" class="button-2">
 
+                <div class="customer-face-section" style="display:flex;justify-content:center;align-items:center; margin-top:6px;">
+                    <img src="./images/customer-faces.png" style="height:40px;" alt="Virtual Assistant" />
+                    <p style="color:#808080; font-size:12px; text-align:center;">
+                        <span style="color:#490eea;font-weight:bold;">+3264</span>
+                        people using our services<br> of
+                        <span style="color:#490eea;font-weight:bold;">Web Development</span>
+                        last week
+                    </p>
+
+                </div>
             </form>
 
         </div>
@@ -142,12 +160,12 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         <!-- please add scroll and make responsive for mobile view -->
         <div class="adds">
 
-            <img src="images/google-partner.png" alt="">
-            <img src="images/clutch.png" alt="">
-            <img src="images/google-star.png" alt="">
-            <img src="images/woo-commerce.png" alt="">
-            <img src="images/wordpress.png" alt="">
-            <!-- <img src="images/g-woo.jpg" alt=""> -->
+            <img src="images/google-partner.png" alt="Virtual Assistant">
+            <img src="images/clutch.png" alt="Virtual Assistant">
+            <img src="images/google-star.png" alt="Virtual Assistant">
+            <img src="images/woo-commerce.png" alt="Virtual Assistant">
+            <img src="images/wordpress.png" alt="Virtual Assistant">
+            <!-- <img src="images/g-woo.jpg" alt="Virtual Assistant"> -->
 
             <!-- extra for scroll  -->
 
@@ -427,8 +445,18 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <p><b>Contact Us</b></p>
                 <div class="address ">
 
-                    <div class="contact ">Call Us: <a href="tel:844-850-0990" target="_blank">Contact Us</a>
+                    <div class="social-link  "><i class="fa-solid fa-location-dot"></i>
+                        <a href="tel:844-850-0990" target="_blank">906 S Main Street
+                            Silverton Texas USA-79257</a>
                     </div>
+                    <div class="social-link  "><i class="fa-solid fa-phone"></i>
+                        <a href="tel:844-850-0990" target="_blank">844-850-0990</a>
+                    </div>
+                    <br>
+                    <!-- <div class="social-link ">
+                        <i class="fas fa-envelope "></i>
+                        <a href="#" target="_blank"> info@usaevirtual.com</a>
+                    </div> -->
                 </div>
             </div>
         </div>
