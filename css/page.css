@@ -5,6 +5,7 @@
   list-style: none;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -681,7 +682,23 @@ body {
     padding: 9% 3%;
   }
   .menu {
-    width: 25%;
+    width: unset;
+  }
+  .menu-ul > li {
+    display: none;
+  }
+  .menu-ul > li:last-child {
+    display: block !important;
+  }
+  .menu-ul > li:last-child {
+    display: block !important;
+  }
+  .menu-ul > li:last-child > a {
+    font-size: 14px;
+    padding: 7px;
+  }
+  .menu-ul > li:last-child > a span {
+    display: none;
   }
   .navbar {
     padding: 20px 4%;

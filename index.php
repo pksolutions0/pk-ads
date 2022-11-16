@@ -81,11 +81,11 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
         <div class="menu">
             <ul class="menu-ul">
-                <!-- <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Reviews</a></li> -->
+                <li><a href="#1">About</a></li>
+                <li><a href="#2">Services</a></li>
+                <li><a href="#3">Reviews</a></li>
                 <li><a href="tel:844-850-0990">
-                        <i class="fa-solid fa-phone" style="margin-right:5px;"></i> 844-850-0990
+                        <i class="fa-solid fa-phone" style="margin-right:5px;"></i> <span>Call Us: </span> 844-850-0990
                     </a></li>
 
             </ul>
@@ -172,7 +172,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         </div>
 
         <!-- this class use multiple time in this code  -->
-        <div class="collab">
+        <div class="collab" id="1">
 
             <div class="collab-left" data-aos="fade-in">
                 <p>COLLABRATION WITH US</p>
@@ -239,7 +239,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
             </div>
         </div>
 
-        <div class="core-content ">
+        <div class="core-content " id="2">
             <img src="images/title-icon.png " data-aos="fade-up">
             <p>SOLUTIONS WE PROVIDE</p>
             <p>Our Core Services</p>
@@ -302,7 +302,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <img src="images/support-web.jfif">
             </div>
         </div>
-        <div class="review-div core-content " data-aos="fade-in">
+        <div class="review-div core-content " data-aos="fade-in" id="3">
             <img src="images/title-icon.png " data-aos="fade-up">
             <p>HONEST REVIEWS</p>
             <p>Amazing Virtual Assistant Customers and Users Testimonials</p>
@@ -446,17 +446,17 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <div class="address ">
 
                     <div class="social-link  "><i class="fa-solid fa-location-dot"></i>
-                        <a href="tel:844-850-0990" target="_blank">906 S Main Street
-                            Silverton Texas USA-79257</a>
+                        <a href="tel:844-850-0990" target="_blank">United States Of America</a>
                     </div>
+                    <br>
                     <div class="social-link  "><i class="fa-solid fa-phone"></i>
                         <a href="tel:844-850-0990" target="_blank">844-850-0990</a>
                     </div>
                     <br>
-                    <!-- <div class="social-link ">
+                    <div class="social-link ">
                         <i class="fas fa-envelope "></i>
-                        <a href="#" target="_blank"> info@usaevirtual.com</a>
-                    </div> -->
+                        <a href="mailto:info@usaevirtual.com" target="_blank"> info@usaevirtual.com</a>
+                    </div>
                 </div>
             </div>
         </div>
