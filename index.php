@@ -12,10 +12,9 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
 
 
-    // $to = "info@usaevirtual.com";
-    $to = "vaibhav.growupnext@gmail.com";
+    $to = "info@usaevirtual.com";
     $subject = "Virtual Assistant Website Query";
-    $Message = $name . "Has sent a new message -- " . $text . " and his contact details is " . $number . "<br> and " . $email;
+    $Message = $name . " Has sent a new message -- " . $text . " and his contact details is " . $number . " and " . $email;
     $header = "From " . $name;
 
     if (mail($to, $subject, $Message, $header)) {
