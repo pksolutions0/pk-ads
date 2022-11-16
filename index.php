@@ -12,7 +12,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
 
 
-    $to = "info@usaevirtual.com";
+    $to = "atulkeshari14@hotmail.com";
 
     $subject = "Virtual Assistant Website Query";
     $Message = $name . " Has sent a new message -- " . $text . " -------- and his contact details is " . $number . " and " . $email;
@@ -453,7 +453,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                     <br>
                     <div class="social-link ">
                         <i class="fas fa-envelope "></i>
-                        <a href="mailto:info@usaevirtual.com" target="_blank"> info@usaevirtual.com</a>
+                        <a href="mailto:atulkeshari14@hotmail.com" target="_blank"> atulkeshari14@hotmail.com</a>
                     </div>
                 </div>
             </div>
@@ -478,7 +478,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
 
     <!--Start of Tawk.to Script-->
-    <!--  Info@usaevirtual.com -->
+    <!--  info@usaevirtual.com -->
 
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
