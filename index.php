@@ -96,7 +96,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <span> <b> Get your website designed and managed at just $5 per hour</b> </span>With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
             </p>
 
-            <button class="button-1"> <a href="tel:844-850-0990" target="_blank">Contact Us</a> </button>
+            <button class="button-1"> <a href="tel:844-850-0990" target="_blank"> <i class="fa-solid fa-phone" style="margin-right:5px;"></i> Contact Us</a> </button>
 
         </div>
 

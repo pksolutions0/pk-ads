@@ -67,10 +67,10 @@ body {
 .header-container {
   display: grid;
   grid-template-columns: 54% 1fr;
-  grid-gap: 4%;
+  grid-gap: 3%;
   padding: 3% 13% 3% 8%;
   position: relative;
-  background-image: url(https://dac.digital/wp-content/uploads/2022/07/background-picture.svg);
+  background-image: url("../check.svg");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -157,7 +157,7 @@ body {
 }
 
 .header-form > form > p {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 500;
 }
 
