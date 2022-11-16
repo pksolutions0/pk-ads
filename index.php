@@ -453,7 +453,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                     <br>
                     <div class="social-link ">
                         <i class="fas fa-envelope "></i>
-                        <a href="mailto:atulkeshari14@hotmail.com" target="_blank"> atulkeshari14@hotmail.com</a>
+                        <a href="mailto:atulkeshari14@hotmail.com" target="_blank"> info@usaevirtual.com</a>
                     </div>
                 </div>
             </div>
