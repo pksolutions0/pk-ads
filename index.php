@@ -12,7 +12,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
 
 
-    $to = "frankrobertson897@gmail.com";
+    $to = "info@usaevirtual.com";
     $subject = "Virtual Assistant Website Query";
     $Message = $name . "Has sent a new message -- " . $text . " and his contact details is " . $number . "<br> and " . $email;
     $header = "From " . $name;
@@ -68,76 +68,73 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 </head>
 
 <body>
-    <!-- full section header -->
-    <header class="header">
-
-        <!-- for svg  -->
-        <!-- <div class="svg-header">
-
-        </div> -->
 
 
-        <navbar class="navbar">
 
-            <div class="logo-img">
-                <h6>Virtual Assistant</h6>
-            </div>
 
-            <div class="menu">
-                <a href="tel:844-850-0990">Schedule Call</a>
-            </div>
+    <navbar class="navbar">
 
-        </navbar>
+        <div class="logo-img">
+            <h6>Virtual Assistant</h6>
+        </div>
 
-        <div class="header-container">
+        <div class="menu">
 
-            <div class="header-content ">
+            <a href="tel:844-850-0990">
+                <i class="fa-solid fa-phone" style="margin-right:5px;"></i> 844-850-0990</a>
+        </div>
 
-                <p>Most trusted Digital Partner for your </p>
-                <span data-aos="fade-in">Website Development</span>
-                <p>
-                    <span> <b> Get your website designed and managed at just $5 per hour</b> </span>With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
-                </p>
+    </navbar>
 
-                <button class="button-1"> <a href="tel:844-850-0990" target="_blank">Contact Us</a> </button>
+    <div class="header-container">
 
-            </div>
+        <div class="header-content ">
 
-            <div class="header-form  min-n">
+            <p>Most trusted Digital Partner for your </p>
+            <span data-aos="fade-in">Website Development</span>
+            <p>
+                <span> <b> Get your website designed and managed at just $5 per hour</b> </span>With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
+            </p>
 
-                <form action="" onsubmit="return Validateform();" id="form" name="form" method="post">
-
-                    <p>Get Free Quote Now</p>
-                    <input type="text" placeholder="Name" id="name" name="name">
-                    <div class="error" id="name-r"></div>
-                    <input type="number" placeholder="Mobile" id="tel" name="tel">
-                    <div class="error" id="tel-r"></div>
-                    <input type="email" placeholder="Email" id="mail" name="mail">
-                    <div class="error" id="mail-r"></div>
-                    <textarea placeholder="Query" rows="4" name="text"></textarea>
-                    <input type="submit" value="Submit" class="button-2">
-
-                </form>
-
-            </div>
-
-            <div class="link">
-
-                <ul>
-                    <li><a href="#" target="_blank">Instagram</a></li>
-                    <li><a href="#" target="_blank">Email</a></li>
-                    <li>
-                        <a href="#" target="_blank">Facebook</a>
-                    </li>
-                    </li>
-
-                </ul>
-
-            </div>
+            <button class="button-1"> <a href="tel:844-850-0990" target="_blank">Contact Us</a> </button>
 
         </div>
 
-    </header>
+        <div class="header-form  min-n">
+
+            <form action="" onsubmit="return Validateform();" id="form" name="form" method="post">
+
+                <p>Get Free Quote Now</p>
+                <input type="text" placeholder="Name" id="name" name="name">
+                <div class="error" id="name-r"></div>
+                <input type="number" placeholder="Mobile" id="tel" name="tel">
+                <div class="error" id="tel-r"></div>
+                <input type="email" placeholder="Email" id="mail" name="mail">
+                <div class="error" id="mail-r"></div>
+                <textarea placeholder="Query" rows="4" name="text"></textarea>
+                <input type="submit" value="Submit" class="button-2">
+
+            </form>
+
+        </div>
+
+        <div class="link">
+
+            <ul>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Email</a></li>
+                <li>
+                    <a href="#" target="_blank">Facebook</a>
+                </li>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
 
 
     <main>

@@ -16,34 +16,18 @@ body {
   font-size: 1.6rem;
 }
 
-.header {
-  width: 100%;
-  /* height: 105vh; */
-  padding: 5px 0 40px 0;
-  background: #490eea;
-  position: relative;
-}
-
-.svg-header {
-  position: absolute;
-  width: 90%;
-  height: 90%;
-  top: 0;
-  right: 0;
-  background-image: url("../images/bg-wave.svg");
-  background-size: cover;
-  opacity: 0.1;
-  z-index: 0;
-}
 .navbar {
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 8%;
   background-color: #490eea;
-
+  position: sticky;
+  top: 0;
   box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px,
     rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+  z-index: 100000000;
 }
 /* 
 .logo-img {
@@ -76,12 +60,30 @@ body {
   color: #490eea;
   text-transform: uppercase;
 }
+.menu > a:hover {
+  color: #000;
+}
 
 .header-container {
   display: grid;
   grid-template-columns: 54% 1fr;
-  padding: 3% 13% 1% 13%;
+  grid-gap: 4%;
+  padding: 3% 13% 3% 8%;
   position: relative;
+  background-image: url(https://dac.digital/wp-content/uploads/2022/07/background-picture.svg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.header-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #490eea44;
+  z-index: -1;
 }
 
 .header-content {
@@ -97,15 +99,14 @@ body {
 }
 
 .header-content > span {
-  font-size: 3.7rem;
+  font-size: 4.6rem;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
 }
 .header-content > p:nth-child(3) {
   color: #fff;
   font-size: 1.8rem;
   margin-top: 17px;
-  width: 90%;
   word-spacing: 1.2px;
   letter-spacing: 0.5px;
   line-height: 1.4;
@@ -244,10 +245,6 @@ body {
   display: grid;
   grid-template-columns: 45% 1fr;
   grid-gap: 8%;
-}
-
-.collab-left {
-  /* border: 1px solid #222; */
 }
 
 .collab-left > p:first-child {
@@ -651,16 +648,36 @@ body {
     grid-template-columns: 100%;
     background-color: #fff;
     padding: 0;
+    grid-gap: 0;
+  }
+  .header-form {
+    padding: 4% 0 10% 0 !important;
   }
   .header-content {
     padding: 10px 7px;
     padding-bottom: 25px;
     padding: 9% 3%;
-    background-color: #490eea;
   }
   .menu {
     width: 25%;
   }
+  .navbar {
+    padding: 20px 4%;
+  }
+  .logo-img > h6 {
+    font-size: 16px;
+    /* line-height: 1.6; */
+  }
+  .menu > a {
+    font-size: 15px;
+    background-color: #fff;
+    font-weight: 500;
+    padding: 7px 10px;
+  }
+  .menu {
+    width: unset;
+  }
+
   .header-form > form {
     border: 2px solid #490eea;
   }
@@ -681,9 +698,9 @@ body {
     justify-content: center !important;
   }
   .button-1 {
-    margin-top: 40 px;
-    padding: 12 px 20 px;
-    border: 1 px solid #fff;
+    margin-top: 4%;
+    padding: 12px 20px;
+    border: 1px solid #fff;
     color: #490eea;
     font-weight: 600;
     font-size: 1.8rem;
@@ -799,9 +816,6 @@ body {
   }
   .link {
     display: none;
-  }
-  .min-n {
-    /* display: none; */
   }
   .header-content {
     padding: 8% 4%;
