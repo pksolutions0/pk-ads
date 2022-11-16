@@ -12,9 +12,10 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
 
 
-    $to = "frankrobertson897@gmail.com";
+    $to = "info@usaevirtual.com";
+
     $subject = "Virtual Assistant Website Query";
-    $Message = $name . "Has sent a new message -- " . $text . " and his contact details is " . $number . "<br> and " . $email;
+    $Message = $name . " Has sent a new message -- " . $text . " -------- and his contact details is " . $number . " and " . $email;
     $header = "From " . $name;
 
     if (mail($to, $subject, $Message, $header)) {
@@ -68,95 +69,110 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 </head>
 
 <body>
-    <!-- full section header -->
-    <header class="header">
-
-        <!-- for svg  -->
-        <!-- <div class="svg-header">
-
-        </div> -->
 
 
-        <navbar class="navbar">
 
-            <div class="logo-img">
-                <h6>Virtual Assistant</h6>
-            </div>
 
-            <div class="menu">
-                <a href="tel:844-850-0990">Schedule Call</a>
-            </div>
+    <navbar class="navbar">
 
-        </navbar>
+        <div class="logo-img">
+            <h6>Virtual Assistant</h6>
+        </div>
 
-        <div class="header-container">
+        <div class="menu">
+            <ul class="menu-ul">
+                <li><a href="#1">About</a></li>
+                <li><a href="#2">Services</a></li>
+                <li><a href="#3">Reviews</a></li>
+                <li><a href="tel:844-850-0990">
+                        <i class="fa-solid fa-phone" style="margin-right:5px;"></i> <span>Call Us: </span> 844-850-0990
+                    </a></li>
 
-            <div class="header-content ">
+            </ul>
 
-                <p>Most trusted Digital Partner for your </p>
-                <span data-aos="fade-in">Website Development</span>
-                <p>
-                    <span> <b> Get your website designed and managed at just $5 per hour</b> </span>With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
-                </p>
-
-                <button class="button-1"> <a href="tel:844-850-0990" target="_blank">Contact Us</a> </button>
-
-            </div>
-
-            <div class="header-form  min-n">
-
-                <form action="" onsubmit="return Validateform();" id="form" name="form" method="post">
-
-                    <p>Get Free Quote Now</p>
-                    <input type="text" placeholder="Name" id="name" name="name">
-                    <div class="error" id="name-r"></div>
-                    <input type="number" placeholder="Mobile" id="tel" name="tel">
-                    <div class="error" id="tel-r"></div>
-                    <input type="email" placeholder="Email" id="mail" name="mail">
-                    <div class="error" id="mail-r"></div>
-                    <textarea placeholder="Query" rows="4" name="text"></textarea>
-                    <input type="submit" value="Submit" class="button-2">
-
-                </form>
-
-            </div>
-
-            <div class="link">
-
-                <ul>
-                    <li><a href="#" target="_blank">Instagram</a></li>
-                    <li><a href="#" target="_blank">Email</a></li>
-                    <li>
-                        <a href="#" target="_blank">Facebook</a>
-                    </li>
-                    </li>
-
-                </ul>
-
-            </div>
 
         </div>
 
-    </header>
+    </navbar>
+
+    <div class="header-container">
+
+        <div class="header-content ">
+
+            <p>Most trusted Digital Partner for your </p>
+            <span data-aos="fade-in">Website Development</span>
+            <p>
+                <span> <b> Get your website designed and managed at just $5 per hour</b> </span>With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
+            </p>
+
+            <button class="button-1"> <a href="tel:844-850-0990" target="_blank"> <i class="fa-solid fa-phone" style="margin-right:5px;"></i> Contact Us</a> </button>
+
+        </div>
+
+        <div class="header-form  min-n">
+
+            <form action="" onsubmit="return Validateform();" id="form" name="form" method="post">
+
+                <p>Get Free Quote Now</p>
+                <input type="text" placeholder="Name" id="name" name="name">
+                <div class="error" id="name-r"></div>
+                <input type="number" placeholder="Mobile" id="tel" name="tel">
+                <div class="error" id="tel-r"></div>
+                <input type="email" placeholder="Email" id="mail" name="mail">
+                <div class="error" id="mail-r"></div>
+                <textarea placeholder="Query" rows="4" name="text"></textarea>
+                <input type="submit" value="Submit" class="button-2">
+
+                <div class="customer-face-section" style="display:flex;justify-content:center;align-items:center; margin-top:6px;">
+                    <img src="./images/customer-faces.png" style="height:40px;" alt="Virtual Assistant" />
+                    <p style="color:#808080; font-size:12px; text-align:center;">
+                        <span style="color:#490eea;font-weight:bold;">+3264</span>
+                        people using our services<br> of
+                        <span style="color:#490eea;font-weight:bold;">Web Development</span>
+                        last week
+                    </p>
+
+                </div>
+            </form>
+
+        </div>
+
+        <div class="link">
+
+            <ul>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Email</a></li>
+                <li>
+                    <a href="#" target="_blank">Facebook</a>
+                </li>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
 
 
     <main>
         <!-- please add scroll and make responsive for mobile view -->
         <div class="adds">
 
-            <img src="images/google-partner.png" alt="">
-            <img src="images/clutch.png" alt="">
-            <img src="images/google-star.png" alt="">
-            <img src="images/woo-commerce.png" alt="">
-            <img src="images/wordpress.png" alt="">
-            <!-- <img src="images/g-woo.jpg" alt=""> -->
+            <img src="images/google-partner.png" alt="Virtual Assistant">
+            <img src="images/clutch.png" alt="Virtual Assistant">
+            <img src="images/google-star.png" alt="Virtual Assistant">
+            <img src="images/woo-commerce.png" alt="Virtual Assistant">
+            <img src="images/wordpress.png" alt="Virtual Assistant">
+            <!-- <img src="images/g-woo.jpg" alt="Virtual Assistant"> -->
 
             <!-- extra for scroll  -->
 
         </div>
 
         <!-- this class use multiple time in this code  -->
-        <div class="collab">
+        <div class="collab" id="1">
 
             <div class="collab-left" data-aos="fade-in">
                 <p>COLLABRATION WITH US</p>
@@ -223,7 +239,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
             </div>
         </div>
 
-        <div class="core-content ">
+        <div class="core-content " id="2">
             <img src="images/title-icon.png " data-aos="fade-up">
             <p>SOLUTIONS WE PROVIDE</p>
             <p>Our Core Services</p>
@@ -286,7 +302,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <img src="images/support-web.jfif">
             </div>
         </div>
-        <div class="review-div core-content " data-aos="fade-in">
+        <div class="review-div core-content " data-aos="fade-in" id="3">
             <img src="images/title-icon.png " data-aos="fade-up">
             <p>HONEST REVIEWS</p>
             <p>Amazing Virtual Assistant Customers and Users Testimonials</p>
@@ -427,7 +443,17 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <p><b>Contact Us</b></p>
                 <div class="address ">
 
-                    <div class="contact ">Call Us: <a href="tel:844-850-0990" target="_blank">Contact Us</a>
+                    <div class="social-link  "><i class="fa-solid fa-location-dot"></i>
+                        <a href="tel:844-850-0990" target="_blank">United States Of America</a>
+                    </div>
+                    <br>
+                    <div class="social-link  "><i class="fa-solid fa-phone"></i>
+                        <a href="tel:844-850-0990" target="_blank">844-850-0990</a>
+                    </div>
+                    <br>
+                    <div class="social-link ">
+                        <i class="fas fa-envelope "></i>
+                        <a href="mailto:info@usaevirtual.com" target="_blank"> info@usaevirtual.com</a>
                     </div>
                 </div>
             </div>
@@ -451,7 +477,6 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
-    <!-- Tawk To -->
     <!--Start of Tawk.to Script-->
     <!--  Info@usaevirtual.com -->
 
@@ -462,7 +487,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
             var s1 = document.createElement("script"),
                 s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
-            s1.src = 'https://embed.tawk.to/6373483db0d6371309cf136b/1ght54cj7';
+            s1.src = 'https://embed.tawk.to/6374c0c7daff0e1306d7b2dc/1gi01236t';
             s1.charset = 'UTF-8';
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
