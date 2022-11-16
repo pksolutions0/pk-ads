@@ -374,14 +374,12 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                     </div>
                 </div>
                 <p> Virtual Assistant is most trusted website development and digital marketing agency. Your complete business solutions at one place and provide all solutions at just $5/hr.We provide services for all of your web development issues and problems at best price and with best quality.</p>
-
-
             </div>
             <div class="footer-grid-0 ">
                 <p><b>EXPLORE</b></p>
                 <ul>
                     <li><a href="#" target="_blank">Home</a></li>
-                    <li><a href="# " target="_blank">About Us</a></li>
+                    <li><a href="#" target="_blank">About Us</a></li>
                     <li><a href="#" target="_blank">Portfolio</a></li>
                     <li><a href="#" target="_blank">Faq</a></li>
                     <li><a href="#" target="_blank">Career</a></li>
@@ -414,13 +412,13 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                     <li>
                         <div class="social-link ">
                             <i class="fab fa-linkedin-in "></i>
-                            <a href="# " target="_blank"> linkdin</a>
+                            <a href="#" target="_blank"> linkdin</a>
                         </div>
                     </li>
                     <li>
                         <div class="social-link ">
                             <i class="fab fa-twitter "></i>
-                            <a href="# " target="_blank"> twitter</a>
+                            <a href="#" target="_blank"> twitter</a>
                         </div>
                     </li>
                 </ul>
@@ -445,7 +443,9 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
     </script>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57CRVDL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57CRVDL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <script src="./assests/js/index.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -453,6 +453,8 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
     <!-- Tawk To -->
     <!--Start of Tawk.to Script-->
+    <!--  Info@usaevirtual.com -->
+
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
             Tawk_LoadStart = new Date();
