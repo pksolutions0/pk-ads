@@ -11,6 +11,7 @@ function Validateform() {
   var email = document.forms["form"]["mail"].value;
   console.log(email.length);
   var tel = document.forms["form"]["tel"].value;
+  var text = document.forms["form"]["text"].value.trim();
   console.log(tel.length);
 
   if (name.length == 0) {
@@ -29,7 +30,17 @@ function Validateform() {
   } else {
     set_error("tel-r", "");
   }
-  if (name.length == 0 || email.length == 0 || tel.length == 0) {
+  if (text.length == 0) {
+    set_error("text-r", "Please fill the message");
+  } else {
+    set_error("text-r", "");
+  }
+  if (
+    name.length == 0 ||
+    email.length == 0 ||
+    tel.length == 0 ||
+    text.length == 0
+  ) {
     ret = false;
   } else {
     var filter = /([+91]?)([6789][0-9]{10,13})/g;

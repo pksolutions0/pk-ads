@@ -121,6 +121,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <input type="email" placeholder="Email" id="mail" name="mail">
                 <div class="error" id="mail-r"></div>
                 <textarea placeholder="Query" rows="4" name="text"></textarea>
+                <div class="error" id="text-r"></div>
                 <input type="submit" value="Submit" class="button-2">
 
                 <div class="customer-face-section" style="display:flex;justify-content:center;align-items:center; margin-top:6px;">
