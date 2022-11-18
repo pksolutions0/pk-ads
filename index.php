@@ -16,7 +16,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
     $subject = "Virtual Assistant Website Query";
     $Message = $name . " Has sent a new message -- " . $text . " -------- and his contact details is " . $number . " and " . $email;
-    $header = "From " . $name ."-------------- this query is form USAEVIRTUAL.COM";
+    $header = "From " . $name . "-------------- this query is form COMPANYHELP.ONLINE";
 
     if (mail($to, $subject, $Message, $header)) {
 
@@ -78,15 +78,21 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         <div class="logo-img">
             <h6>Virtual Assistant</h6>
         </div>
-
-        <div class="menu">
-            <ul class="menu-ul">
+        <div class="div-menu">
+            <ul class="menu-ul ">
                 <li><a href="#1">About</a></li>
                 <li><a href="#2">Services</a></li>
                 <li><a href="#3">Reviews</a></li>
-                <li><a href="tel:844-850-0990">
-                        <i class="fa-solid fa-phone" style="margin-right:5px;"></i> <span>Call Us: </span> 844-850-0990
-                    </a></li>
+            </ul>
+        </div>
+
+        <div class="menu">
+            <ul class="menu-ul-a">
+                <li>
+                    <a href="tel:844-850-0990">
+                        <i class="fa-solid fa-phone" style="margin-right:5px;"></i> <span>Call Us- </span> +1 (844) 850 0990
+                    </a>
+                </li>
 
             </ul>
 
@@ -100,9 +106,10 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         <div class="header-content ">
 
             <p>Most trusted Digital Partner for your </p>
-            <span data-aos="fade-in">Website Development</span>
-            <p>
-                <span> <b> Get your website designed and managed at just $5 per hour</b> </span>With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
+            <h1 data-aos="fade-in">We not only Create your Website but also Manage it FREE for I year</h1>
+            <p class="main-landing-txt">
+                <span> <b> Get your website designed and managed at just $5 per hour</b> </span><br>
+                With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
             </p>
 
             <button class="button-1"> <a href="tel:844-850-0990" target="_blank"> <i class="fa-solid fa-phone" style="margin-right:5px;"></i> Contact Us</a> </button>

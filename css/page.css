@@ -56,18 +56,22 @@ body {
 }
 
 .menu-ul > li > a {
-  font-size: 17px;
+  font-size: 18px;
   color: #fff;
   font-weight: 500;
-  padding: 7px 15px;
+  padding: 12px 18px;
   margin-right: 20px;
 }
+.menu-ul-a > li > a span {
+  font-weight: 800;
+  font-size: 18px !important;
+}
+
 .menu-ul > li > a:hover {
   color: #000;
 }
-
-.menu-ul > li:last-child > a {
-  font-size: 16px;
+.menu-ul-a > li > a {
+  font-size: 20px;
   line-height: 1.6;
   background-color: #fff;
   font-weight: 600;
@@ -76,7 +80,7 @@ body {
   color: #490eea;
   text-transform: uppercase;
 }
-.menu > a:last-child:hover {
+.menu-ul-a > li > a:hover {
   color: #000;
 }
 
@@ -114,10 +118,11 @@ body {
   font-weight: 500;
 }
 
-.header-content > span {
-  font-size: 4.4rem;
+.header-content > h1 {
+  font-size: 3.5rem;
   color: #fff;
   font-weight: 700;
+  line-height: 1.4;
 }
 .header-content > p:nth-child(3) {
   color: #fff;
@@ -127,6 +132,9 @@ body {
   letter-spacing: 0.5px;
   line-height: 1.5;
   width: 96%;
+}
+.main-landing-txt > span {
+  font-size: 2rem;
 }
 
 .button-1 {
@@ -693,11 +701,11 @@ body {
   .menu-ul > li:last-child {
     display: block !important;
   }
-  .menu-ul > li:last-child > a {
+  .menu-ul-a > li > a {
     font-size: 14px;
     padding: 7px;
   }
-  .menu-ul > li:last-child > a span {
+  .menu-ul-a > li > a span {
     display: none;
   }
   .navbar {
