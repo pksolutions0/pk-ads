@@ -62,26 +62,66 @@ body {
   padding: 12px 18px;
   margin-right: 20px;
 }
-.menu-ul-a > li > a span {
-  font-weight: 800;
-  font-size: 18px !important;
-}
 
 .menu-ul > li > a:hover {
   color: #000;
 }
-.menu-ul-a > li > a {
-  font-size: 20px;
-  line-height: 1.6;
-  background-color: #fff;
-  font-weight: 600;
-  padding: 7px 15px;
-  border-radius: 4px;
+
+.button {
+  position: relative;
   color: #490eea;
+  background-color: #fff;
+  text-decoration: none;
+  display: inline-block;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 1000px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
+  transition: 0.5s all ease-in-out;
+  font-weight: 600;
+  font-size: 18px !important;
 }
-.menu-ul-a > li > a:hover {
-  color: #000;
+.button:hover {
+  cursor: pointer;
+  background: white;
+  color: #1f4141;
+  /* animation: none; */
+  animation-play-state: paused;
+}
+.button-wiggle > i {
+  margin-right: 5px;
+}
+.button-wiggle {
+  animation: wiggle 4s 2s infinite;
+}
+
+@keyframes wiggle {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
 }
 
 .header-container {
@@ -695,11 +735,8 @@ body {
   .menu-ul > li {
     display: none;
   }
-  .menu-ul > li:last-child {
-    display: block !important;
-  }
-  .menu-ul > li:last-child {
-    display: block !important;
+  .button-wiggle > i {
+    margin-right: 1px;
   }
   .menu-ul-a > li > a {
     font-size: 14px;
@@ -708,11 +745,15 @@ body {
   .menu-ul-a > li > a span {
     display: none;
   }
+  .button {
+    font-weight: 500;
+    font-size: 14px !important;
+  }
   .navbar {
     padding: 20px 4%;
   }
   .logo-img > h6 {
-    font-size: 16px;
+    font-size: 15px;
     /* line-height: 1.6; */
   }
   .menu > a {
@@ -908,28 +949,6 @@ body {
   .button-002 {
     margin-top: 50px !important;
   }
-  /* .footer {
-        height: auto;
-    }
-    .footer-grid {
-        grid-template-columns: 100%;
-        padding-right: 0%;
-    }
-    .footer-grid-0>p>b {
-        font-size: 3rem;
-    }
-    .social-link {
-        font-size: 2.5rem;
-    }
-    .footer-grid-0>ul>li {
-        font-size: 2.5rem;
-    }
-    .collab-left {
-        padding-right: 10%;
-    }
-    .address {
-        font-size: 2.5rem;
-    } */
   .button-2 {
     padding: 10px !important;
     font-size: 14px !important;
@@ -968,10 +987,6 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .logo-img > img {
-    width: 200px;
-    height: 53px;
-  }
   .collab-left {
     padding-right: 3%;
   }
@@ -981,7 +996,10 @@ body {
   }
   .review-item {
     width: 310px;
-  }
+  }.menu-ul-a > li > a {
+    font-size: 14px;
+    padding: 5px;
+}
 }
 
 @media screen and (max-width: 350px) {

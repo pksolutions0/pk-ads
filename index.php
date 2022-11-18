@@ -89,10 +89,12 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         <div class="menu">
             <ul class="menu-ul-a">
                 <li>
-                    <a href="tel:844-850-0990">
-                        <i class="fa-solid fa-phone" style="margin-right:5px;"></i> <span>Call Us- </span> +1 (844) 850 0990
+                    <a class="button button-wiggle" href="tel:844-850-0990">
+                        <i class="fa-solid fa-phone"></i> <span>Call Us- </span> +1 (844) 850 0990
                     </a>
+
                 </li>
+
 
             </ul>
 
