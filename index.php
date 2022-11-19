@@ -66,8 +66,6 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
             margin-top: 3px;
 
         }
-
-       
     </style>
 </head>
 
@@ -117,7 +115,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
             </p>
 
-            <button class="button-1 button-1-ani"> <a href="tel:844-850-0990" target="_blank"> <i class="fa-regular fa-comment"></i> Chat with us</a> </button>
+            <button class="button-1 button-1-ani"> <a href="https://tawk.to/chat/6374c0c7daff0e1306d7b2dc/1gi01236t" target="_blank"> <i class="fa-regular fa-comment"></i> Chat with us</a> </button>
 
 
 
