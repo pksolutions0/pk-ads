@@ -203,7 +203,7 @@ body {
 }
 .button-1-ani {
   position: relative;
-  animation: example 5s linear 0s infinite alternate;
+  animation: example 7s linear 0s infinite alternate;
 }
 
 @keyframes example {
