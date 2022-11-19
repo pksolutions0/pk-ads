@@ -183,10 +183,10 @@ body {
   border: 1px solid #fff;
   outline: none;
   color: #490eea;
-  font-weight: 600;
+  font-weight: 700;
   background-color: #fff;
   border-radius: 30px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   z-index: 1000;
 }
 
@@ -196,6 +196,28 @@ body {
 
 .button-1:hover {
   box-shadow: 0 22px 40px rgb(0 0 0 / 15%);
+}
+.button-1-ani > i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.button-1-ani {
+  position: relative;
+  animation: example 5s linear 0s infinite alternate;
+}
+
+@keyframes example {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 70%;
+  }
+
+  100% {
+    left: 0%;
+  }
 }
 
 .button-1 > a:hover {
@@ -790,10 +812,23 @@ body {
     padding: 12px 20px;
     border: 1px solid #fff;
     color: #490eea;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.8rem;
     cursor: pointer;
     z-index: 1;
+  }
+  @keyframes example {
+    0% {
+      left: 0;
+    }
+
+    50% {
+      left: 40%;
+    }
+
+    100% {
+      left: 0%;
+    }
   }
   .header-form {
     padding: 4% 5%;
@@ -944,7 +979,7 @@ body {
     padding: 3%;
   }
   .web-mobi-divi > p > span {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .button-002 {
     margin-top: 50px !important;
@@ -996,10 +1031,11 @@ body {
   }
   .review-item {
     width: 310px;
-  }.menu-ul-a > li > a {
+  }
+  .menu-ul-a > li > a {
     font-size: 14px;
     padding: 5px;
-}
+  }
 }
 
 @media screen and (max-width: 350px) {
