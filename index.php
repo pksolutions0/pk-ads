@@ -109,10 +109,18 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         <div class="header-content ">
 
             <p>Most trusted Digital Partner for your </p>
-            <h1>We not only Create your Website but also Manage it FREE for 1 year</h1>
+            <h1>We Create Your Website At Just $195 And Also Manage It Free For 1 Year</h1>
             <p class="main-landing-txt">
-                <span> <b> Get your website designed and managed at just $5 per hour</b> </span><br>
-                With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price.
+                <span> <b> Grab the 20% offer on this Black Friday Sale. To Avail the offer <a href="tel:844-850-0990">Click Here</a>. </b> </span><br>
+
+                <br>
+                <i class="fa-solid fa-check"></i> Robust <br>
+                <i class="fa-solid fa-check"></i> High Speed <br>
+
+                <i class="fa-solid fa-check"></i> SEO Friendly <br>
+                <i class="fa-solid fa-check"></i> Complete Responsive <br>
+
+                <!-- With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price. -->
             </p>
 
             <button class="button-1 button-1-ani"> <a href="https://tawk.to/chat/6374c0c7daff0e1306d7b2dc/1gi01236t" target="_blank"> <i class="fa-regular fa-comment"></i> Chat with us</a> </button>

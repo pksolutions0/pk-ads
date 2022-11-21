@@ -152,7 +152,7 @@ body {
 }
 
 .header-content > p:first-child {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: #fff;
   margin: 50px 0 10px 0;
   font-weight: 500;
@@ -174,7 +174,12 @@ body {
   width: 96%;
 }
 .main-landing-txt > span {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #ffff00;
+}
+.main-landing-txt > span > b > a {
+  text-decoration: underline;
+  color: #ffff00;
 }
 
 .button-1 {
