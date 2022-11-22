@@ -109,16 +109,18 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         <div class="header-content ">
 
             <p>Most trusted Digital Partner for your </p>
-            <h1>We Create Your Website At Just $195 And Also Manage It Free For 1 Year</h1>
+            <h1>Get a Professional Web Design <br>Just For <span style="color: #ffff00; font-size:4.3rem;">$195</span></h1>
+            <!-- <h1>We Create Your Website At Just $195 And Also Manage It Free For 1 Year</h1> -->
+            <!--  -->
             <p class="main-landing-txt">
                 <span> <b> Grab the 20% offer on this Black Friday Sale. To Avail the offer <a href="tel:844-850-0990">Click Here</a>. </b> </span><br>
 
                 <br>
-                <i class="fa-solid fa-check"></i> Robust <br>
-                <i class="fa-solid fa-check"></i> High Speed <br>
+                <i class="fa-solid fa-check"></i> Responsive and Mobile Friendly Websites<br>
+                <i class="fa-solid fa-check"></i> Multiple Design Concepts<br>
 
-                <i class="fa-solid fa-check"></i> SEO Friendly <br>
-                <i class="fa-solid fa-check"></i> Complete Responsive <br>
+                <i class="fa-solid fa-check"></i> Elegant & Modern Website Designs<br>
+                <i class="fa-solid fa-check"></i> Custom Development For Best User Interface Experience<br>
 
                 <!-- With our top-notch experts, you can be sure that your site will be managed perfectly. Our team of experts will help you make your site professional, responsive and optimized for conversions. We provide the best service at the cheapest price. -->
             </p>
@@ -133,7 +135,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
             <form action="" onsubmit="return Validateform();" id="form" name="form" method="post">
 
-                <p>Get Free Quote Now</p>
+                <p>20% offer on Web Design</p>
                 <input type="text" placeholder="Name" id="name" name="name">
                 <div class="error" id="name-r"></div>
                 <input type="number" placeholder="Mobile" id="tel" name="tel">

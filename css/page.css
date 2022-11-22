@@ -16,7 +16,9 @@ body {
   width: 100%;
   font-size: 1.6rem;
 }
-
+input:focus {
+  outline-color: #490eea !important;
+}
 .navbar {
   width: 100%;
   display: inline-flex;
@@ -250,7 +252,7 @@ body {
 
 .header-form > form > p {
   font-size: 2.8rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header-form > form > input {
@@ -260,7 +262,6 @@ body {
   font-size: 1.5rem;
   border: 1px solid #ced4da;
   font-weight: 500;
-  outline: none;
   border-radius: 3px;
 }
 
@@ -273,7 +274,7 @@ body {
   font-weight: 500;
   border: 1px solid #ced4da;
   padding: 8px 5px;
-  outline: none;
+  outline-color: #490eea;
   border-radius: 3px;
 }
 
