@@ -130,7 +130,7 @@ input:focus {
   display: grid;
   grid-template-columns: 54% 1fr;
   grid-gap: 2%;
-  padding: 3% 13% 3% 8%;
+  padding: 3% 8% 3% 8%;
   position: relative;
   background-image: url("../check.svg");
   background-size: cover;
@@ -169,7 +169,7 @@ input:focus {
 .header-content > p:nth-child(3) {
   color: #fff;
   font-size: 1.8rem;
-  margin-top: 17px;
+  margin-top: 24px;
   word-spacing: 1.2px;
   letter-spacing: 0.5px;
   line-height: 1.5;
@@ -354,10 +354,9 @@ input:focus {
 }
 
 .collab-left > p:nth-child(3) {
-  font-size: 17px;
+  font-size: 2rem;
   color: #222;
   margin-top: 20px;
-
   line-height: 1.5em;
   text-align: justify;
   font-weight: 500;
@@ -480,8 +479,11 @@ input:focus {
 }
 
 .web-mobi-divi > p > span {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #222;
+  margin-top: 20px;
+  line-height: 1.5em;
+  text-align: justify;
   font-weight: 500;
 }
 
@@ -687,6 +689,9 @@ input:focus {
     bottom: 10%;
     right: 3%;
   }
+  .header-form > form {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -839,6 +844,7 @@ input:focus {
       left: 0%;
     }
   }
+
   .header-form {
     padding: 4% 5%;
   }
@@ -871,6 +877,9 @@ input:focus {
     } */
   .adds {
     margin-top: 0;
+  }
+  .collab-left > p:nth-child(2) {
+    margin-top: 15px;
   }
   .collab {
     grid-template-columns: 100%;
@@ -953,7 +962,7 @@ input:focus {
     padding: 8% 4%;
   }
   .header-content > p:nth-child(3) {
-    padding-right: 4%;
+    padding-right: 1%;
   }
   .header-content > span {
     font-size: 4.5rem;
