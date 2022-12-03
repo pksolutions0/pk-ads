@@ -329,7 +329,7 @@ input:focus {
 
 .adds > img {
   width: 130px;
-  height: 90px;
+  height: auto;
 }
 
 .collab {
@@ -380,16 +380,16 @@ input:focus {
 
 .collab-left-exp-0 > img {
   width: 40px;
-  height: 40px;
+  height: auto;
 }
 
 .collab-right {
   display: grid;
   place-items: center;
 }
-
 .collab-right > img {
   width: 100%;
+  height: auto;
   padding: 0 3%;
 }
 
@@ -458,8 +458,8 @@ input:focus {
   text-align: left;
 }
 .web-mobi-divi > img {
-  width: 55px;
-  height: 45px;
+  width: 50px;
+  height: auto;
 }
 
 .web-mobi-divi:hover {
@@ -501,7 +501,7 @@ input:focus {
 
 .collab-left-icon > img {
   width: 320px;
-  height: 55px;
+  height: auto;
   margin-top: 4%;
 }
 .collab-right-01 > img {
@@ -545,7 +545,7 @@ input:focus {
 
 .user-img {
   height: 75px;
-  width: 75px;
+  width: auto;
   border-radius: 50px;
 }
 
@@ -556,7 +556,7 @@ input:focus {
 
 .user-details > p:first-child {
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 500;
   text-align: left;
 }
 
@@ -726,7 +726,7 @@ input:focus {
   }
   .adds > img {
     width: 90px;
-    height: 70px;
+    height: auto;
   }
   .adds {
     padding: 3% 2%;
@@ -892,10 +892,15 @@ input:focus {
     grid-gap: 0;
   }
   .collab-right {
-    display: none;
+    display: block;
+    margin-bottom: 10%;
+  }
+  .collab-right > img {
+    height: 100%;
   }
   .collab-right-01 {
-    display: none;
+    display: block;
+    margin-bottom: 30px;
   }
   .core-services-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1006,6 +1011,10 @@ input:focus {
     padding: 10px !important;
     font-size: 14px !important;
   }
+  .review-item {
+    padding: 30px 30px 30px 0;
+  }
+
   .collab-left {
     padding-right: 6%;
   }

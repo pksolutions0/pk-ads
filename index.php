@@ -207,7 +207,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <div class=" collab-left-exp ">
 
                     <div class="collab-left-exp-0 ">
-                        <img src="images/project-delivered.png ">
+                        <img src="images/project-delivered.png " alt="Virtual Assistant">
 
                         <div class="collab-left-exp-0-content ">
                             <p data-aos="fade-up"><b>1000+</b></p>
@@ -218,7 +218,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                     </div>
 
                     <div class="collab-left-exp-0 ">
-                        <img src="images/happy-client_11zon.jpg ">
+                        <img src="images/happy-client_11zon.jpg" alt="Virtual Assistant">
 
                         <div class="collab-left-exp-0-content ">
                             <p data-aos="fade-up"><b>950+</b></p>
@@ -229,7 +229,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                     </div>
 
                     <div class="collab-left-exp-0 ">
-                        <img src="images/awwards.png ">
+                        <img src="images/awwards.png" alt="Virtual Assistant">
 
                         <div class="collab-left-exp-0-content ">
                             <p data-aos="fade-up"><b>5+</b></p>
@@ -239,7 +239,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                     </div>
 
                     <div class="collab-left-exp-0 ">
-                        <img src="images/industries-served.png ">
+                        <img src="images/industries-served.png" alt="Virtual Assistant">
 
                         <div class="collab-left-exp-0-content ">
                             <p data-aos="fade-up"><b>20+</b></p>
@@ -257,46 +257,46 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
             <!-- photo removed in mobile viewport  -->
 
             <div class="collab-right " data-aos="fade-in">
-                <img src="images/pexels-rodnae-productions-7581110.jpg ">
+                <img src="images/pexels-rodnae-productions-7581110.jpg " alt="Virtual Assistant">
 
             </div>
         </div>
 
         <div class="core-content " id="2">
-            <img src="images/title-icon.png " data-aos="fade-up">
+            <img src="images/title-icon.png " data-aos="fade-up" alt="Virtual Assistant">
             <p>SOLUTIONS WE PROVIDE</p>
             <p>Our Core Services</p>
             <div class="main-core ">
                 <div class="core-services-grid ">
                     <div class="web-mobi-divi" data-aos="fade-in">
-                        <img src="images/icon04.png " data-aos="fade-up">
+                        <img src="images/icon04.png " data-aos="fade-up" alt="Virtual Assistant">
                         <h6>Web Design</h6>
                         <p><span>By combining strategy, user experience, and design, you may create an online presence by learning about and comprehending your business.</span></p>
                     </div>
                     <div class="web-mobi-divi " data-aos="fade-in">
-                        <img src="images/mobile-development.png " data-aos="fade-up">
+                        <img src="images/mobile-development.png " data-aos="fade-up" alt="Virtual Assistant">
                         <h6>Ecommerce Web Development</h6>
                         <p>
                             <span>Our goal is to support you as you scale your website over time. That's why we collaborate with you to continually enhance the functionality of your website.</span>
                         </p>
                     </div>
                     <div class="web-mobi-divi " data-aos="fade-in">
-                        <img src="images/digital-marketing.png " data-aos="fade-up">
+                        <img src="images/digital-marketing.png " data-aos="fade-up" alt="Virtual Assistant">
                         <h6>WordPress Development</h6>
                         <p><span>WordPress Development by Expert WP Professionals. Available WP Support and full development. WP Layout, WP Plugins, WP Theme WP SEO.</span></p>
                     </div>
                     <div class="web-mobi-divi " data-aos="fade-in">
-                        <img src="images\icons8-web-64.png " data-aos="fade-up">
+                        <img src="images\icons8-web-64.png " data-aos="fade-up" alt="Virtual Assistant">
                         <h6>Dynamic Web Development</h6>
                         <p><span>Professional dynamic web development services.Using tech stalks like SQL,Express, MongoDB, PHP etc.</span></p>
                     </div>
                     <div class="web-mobi-divi " data-aos="fade-in">
-                        <img src="images\icons8-app-development-64.png" data-aos="fade-up">
+                        <img src="images\icons8-app-development-64.png" data-aos="fade-up" alt="Virtual Assistant">
                         <h6>Business Websites</h6>
                         <p><span>Our skilled development team can turn your ideal website into a functional commercial website. </span></p>
                     </div>
                     <div class="web-mobi-divi " data-aos="fade-in">
-                        <img src="images/icons8-software-developer-64.png " data-aos="fade-up">
+                        <img src="images/icons8-software-developer-64.png " data-aos="fade-up" alt="Virtual Assistant">
                         <h6>Personal Website</h6>
                         <p><span>We work with you and our professionals to create a personal or portfolio website. We continuously assist your development.</span></p>
                     </div>
@@ -313,7 +313,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <p>eCommerce Website Support</p>
                 <p>Our goal is to support you as you scale your website over time and provide all your needs at just <b>$5/hr</b>. We collaborate with you to continuously enhance the functionality of your website and stay abreast of technical needs as a result.</p>
                 <div class="collab-left-icon ">
-                    <img src="images/iconset02.png ">
+                    <img src="images/iconset02.png " alt="Virtual Assistant">
                 </div>
                 <a href="tel:844-850-0990" target="_blank"> <button Class="button-002 button-2 ">Contact Us</button></a>
 
@@ -322,11 +322,11 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
             <!-- photo removed in mobile view -->
 
             <div class="collab-right-01 " data-aos="fade-in">
-                <img src="images/support-web.jfif">
+                <img src="images/support-web.jfif" alt="Virtual Assistant">
             </div>
         </div>
         <div class="review-div core-content " data-aos="fade-in" id="3">
-            <img src="images/title-icon.png " data-aos="fade-up">
+            <img src="images/title-icon.png " data-aos="fade-up" alt="Virtual Assistant">
             <p>HONEST REVIEWS</p>
             <p>Amazing Virtual Assistant Customers and Users Testimonials</p>
             <div class="review-grid ">
@@ -334,7 +334,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
                 <div class="review-item ">
                     <div class="review-user-details ">
-                        <img class="user-img " src="images/testimonials-4.jpg ">
+                        <img class="user-img " src="images/testimonials-4.jpg " alt="Virtual Assistant">
                         <div class="user-details ">
                             <p>Patrick</p>
                             <!-- <p>February 25, 2020.</p> -->
@@ -355,7 +355,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
                 <div class="review-item ">
                     <div class="review-user-details ">
-                        <img class="user-img " src="images/testimonials-5.jpg ">
+                        <img class="user-img " src="images/testimonials-5.jpg " alt="Virtual Assistant">
                         <div class="user-details ">
                             <p>Brain</p>
                             <!-- <p>June 10, 2020.</p> -->
@@ -376,7 +376,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
                 <div class="review-item ">
                     <div class="review-user-details ">
-                        <img class="user-img " src="images/download-03.jpg ">
+                        <img class="user-img " src="images/download-03.jpg " alt="Virtual Assistant">
                         <div class="user-details ">
                             <p>Lara</p>
                             <!-- <p>May 15, 2020.</p> -->
@@ -418,16 +418,16 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                 <p><b>EXPLORE</b></p>
                 <ul>
                     <li><a href="#" target="_blank">Home</a></li>
-                    <li><a href="#" target="_blank">About Us</a></li>
+                    <!-- <li><a href="#" target="_blank">About Us</a></li>
                     <li><a href="#" target="_blank">Portfolio</a></li>
-                    <li><a href="#" target="_blank">Faq</a></li>
-                    <li><a href="#" target="_blank">Career</a></li>
+                    <li><a href="#" target="_blank">Faq</a></li> -->
+                    <!-- <li><a href="#" target="_blank">Career</a></li> -->
                     <li>
                         <a href="tel:844-850-0990">Contact Us</a>
                     </li>
                 </ul>
             </div>
-            <div class="footer-grid-0 ">
+            <!-- <div class="footer-grid-0 ">
                 <p><b>FOLLOW</b></p>
                 <ul>
                     <li>
@@ -461,7 +461,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <div class="footer-grid-0 ">
                 <p><b>Contact Us</b></p>
                 <div class="address ">
