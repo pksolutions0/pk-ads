@@ -257,7 +257,7 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
             <!-- photo removed in mobile viewport  -->
 
             <div class="collab-right " data-aos="fade-in">
-                <img src="images/pexels-rodnae-productions-7581110.jpg " alt="Virtual Assistant">
+                <img src="images/pexels-rodnae-productions-7581110.jpeg " alt="Virtual Assistant">
 
             </div>
         </div>
