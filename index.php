@@ -41,11 +41,14 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
 
     <title>Virtual Assistant</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link rel="stylesheet" href="css/page.css">
 
 
@@ -496,8 +499,9 @@ if (isset($_POST['name']) && $_POST['name'] != ""  && isset($_POST['mail']) && $
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57CRVDL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
     <script src="./assests/js/index.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ 
 
 
     <!--Start of Tawk.to Script-->
